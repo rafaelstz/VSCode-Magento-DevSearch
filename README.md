@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Search faster into Magento DevDocs and Magento StackExchange! ⚡️</h4>
+<h4 align="center">Search faster into Magento DevDocs and Magento StackExchange! 🔍⚡️</h4>
 
 <p align="center">  
   <a href="https://github.com/rafaelstz/VSCode-Magento-DevSearch/releases"><img src="https://img.shields.io/github/release/rafaelstz/VSCode-Magento-DevSearch.svg" alt="Magento DevSearch Release"></a>
