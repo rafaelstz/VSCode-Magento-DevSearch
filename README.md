@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="https://cdn.rawgit.com/rafaelstz/VSCode-Magento-DevSearch/master/images/icon.png" alt="Magento 2 DevSearch" width="128" height="128">
+    <img src="https://raw.githubusercontent.com/rafaelstz/VSCode-Magento-DevSearch/master/images/icon.png" alt="Magento 2 DevSearch" width="128" height="128">
   <br>
   VS Code - Magento DevSearch
   <br>
@@ -19,7 +19,7 @@
 
 Magento DevSearch is a [VS Code](https://code.visualstudio.com/) extension that allows you to select text inside the VS Code editor and search the Magento terms into [Magento DevDocs](https://devdocs.magento.com) and [Magento StackExchange](https://magento.stackexchange.com) for a matching function, class, method examples how to use it.
 
-![Magento DevSearch VisualStudioCode](https://cdn.rawgit.com/rafaelstz/VSCode-Magento-DevSearch/master/images/MagentoDevSearch-VisualStudioCode.png)
+![Magento DevSearch VisualStudioCode](https://raw.githubusercontent.com/rafaelstz/VSCode-Magento-DevSearch/master/images/MagentoDevSearch-VisualStudioCode.png)
 
 ## Features
 
