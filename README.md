@@ -17,7 +17,7 @@
 
 ----
 
-Magento DevSearch is a [VS Code](https://code.visualstudio.com/) extension that allows you to select text inside the VS Code editor and search the Magento terms into [Magento DevDocs](https://devdocs.magento.com) and [Magento StackExchange](https://magento.stackexchange.com) for a matching function, class, method examples how to use it.
+Magento DevSearch is a [VS Code](https://code.visualstudio.com/) extension that allows you to select text inside the VS Code editor and search it into [Magento DevDocs](https://devdocs.magento.com) and [Magento StackExchange](https://magento.stackexchange.com) for a matching function, class and method examples how to use it.
 
 ![Magento DevSearch VisualStudioCode](https://raw.githubusercontent.com/rafaelstz/VSCode-Magento-DevSearch/master/images/MagentoDevSearch-VisualStudioCode.png)
 
