@@ -1,0 +1,103 @@
+{
+    "name": "magento-devsearch",
+    "displayName": "Magento DevSearch",
+    "description": "Now developers can search faster into Magento DevDocs and Magento StackExchange.",
+	"version": "1.0.0",
+    "publisher": "rafaelcgstz",
+	"license": "MIT",
+	"icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+		"magento", "search", "devdocs", "keybindings"
+	],
+	"activationEvents": [
+        "onCommand:extension.searchDevdocs",
+        "onCommand:extension.searchStackExchange"
+	],
+    "main": "./extension",
+	"homepage": "https://github.com/rafaelstz/VSCode-Magento-DevSearch",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rafaelstz/VSCode-Magento-DevSearch"
+	},
+	"bugs": {
+		"url": "https://github.com/rafaelstz/VSCode-Magento-DevSearch/issues",
+		"email": "rafaelcgstz@gmail.com"
+	},
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Magento DevSearch",
+			"properties": {
+				"magentodevdocs.site": {
+					"type": "string",
+					"default": "https://google.com/search?btnI&q=site:devdocs.magento.com ",
+					"description": "Search what do you want into the Magento Devdocs."
+                },
+                "magentostackexchange.site": {
+					"type": "string",
+					"default": "https://google.com/search?btnI&q=site:magento.stackexchange.com ",
+					"description": "Search what do you want into the Magento StackExchange."
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.searchDevdocs",
+				"title": "Search in Magento DevDocs..."
+            },
+            {
+                "command": "extension.searchStackExchange",
+                "title": "Search in Magento StackExchange"
+            }
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "extension.searchDevdocs",
+					"when": "editorHasSelection",
+					"group": "4_search"
+				},
+				{
+					"command": "extension.searchStackExchange",
+					"when": "editorHasSelection",
+					"group": "4_search"
+				}
+			]
+		},
+		"keybindings": [
+			{
+				"command": "extension.searchDevdocs",
+				"key": "ctrl+alt+d",
+				"mac": "cmd+alt+d",
+				"when": "editorHasSelection"
+			},
+			{
+				"command": "extension.searchStackExchange",
+				"key": "ctrl+alt+s",
+				"mac": "cmd+alt+s",
+				"when": "editorHasSelection"
+			}
+		]
+	},
+	"galleryBanner": {
+		"color": "#F7F3EB",
+		"theme": "light"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+    "devDependencies": {
+        "typescript": "^3.1.4",
+        "vscode": "^1.1.25",
+        "eslint": "^4.11.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    }
+}
