@@ -11,7 +11,7 @@
 <p align="center">  
   <a href="https://github.com/rafaelstz/VSCode-Magento-DevSearch/releases"><img src="https://img.shields.io/github/release/rafaelstz/VSCode-Magento-DevSearch.svg" alt="Magento DevSearch Release"></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=rafaelcgstz.magento-devsearch">
-    <img src="http://vsmarketplacebadge.apphb.com/installs-short/rafaelcgstz.magento-devsearch.svg" alt="Magento 2 DevSearch Installs">
+    <img src="https://vsmarketplacebadge.apphb.com/installs-short/rafaelcgstz.magento-devsearch.svg" alt="Magento 2 DevSearch Installs">
   </a> 
 </p>
 
@@ -44,6 +44,6 @@ The extension takes your selected text and opens Google's first result that matc
 
 ## License
 
-This Visual Studio Code extension is open-source software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This Visual Studio Code extension is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 **Enjoy!**
